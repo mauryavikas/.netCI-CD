@@ -9,10 +9,10 @@ jobs:
     runs-on: ubuntu latest 
     steps:
     - name: checkout code 🔔
-    - uses: actions/checkout@v3
+      uses: actions/checkout@v3
     
     - name: setup .Net 6 🔧
-    - uses: actions/setup-dotnet@v3
+      uses: actions/setup-dotnet@v3
       with:
         dotnet-version: '6.0.x'
 
